@@ -82,7 +82,7 @@ CACHES = {
     }
 }
 
-CACHE_MIDDLEWARE_SECONDS = 10
+CACHE_MIDDLEWARE_SECONDS = 0
 
 
 # Internationalization

@@ -25,7 +25,7 @@ class SingleObjectMixin(object):
 
 class Resource(View):
     uri = None
-    cache_max_age = None
+    cache_max_age = 0
 
     def get_attributes(self):
         return {}
